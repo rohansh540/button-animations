@@ -1,0 +1,27 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f4f4f4;
+  background-color: #3a519e;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 8px #131a30;
+}
+button:hover {
+  background-color: #3c4c80;
+}
+
+button:active {
+  background-color: #2f3f75;
+  box-shadow: 0 5px #0b1d57;
+  transform: translateY(4px);
+}
